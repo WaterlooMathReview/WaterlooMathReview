@@ -1,0 +1,18 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304282955
+host=64.134.27.137
+name=Editorial.Production
+rev=2
+targets=Editorial.Style,Editorial.ProductionEditor,Editorial.AuthorLiaison
+text=Once papers have been selected for an issue the process of actually assembling them into a coherent pdf, ensuring that they all adhere to [[Editorial/Style | the style guide]], and compiling the related materials (front matter, remarks, art). Production is divided into two stages: article production, where the editorial staff modify the articles to use wmr.sty TeX and follow the style gude; and issue production, where the [[Editorial/ProductionEditor | production editor]] takes the completed articles (after sending pre-prints to authors for approval), art, and frontmatter and assembles the final PDF.%0a%0a!!! Article Production: Four days%0a%0aTODO: Document production system%0a%0aWhen the articles are complete, PDF preprints are sent to the authors for a final check via the [[Editorial/AuthorLiaison | author liaison]]. Authors have three days for any last minute revision%0a%0a!!! Issue Production: Three days%0a%0aTODO: Document production system
+time=1304285005
+author:1304285005=ebering
+diff:1304285005:1304282955:=7c7%0a%3c When the articles are complete, PDF preprints are sent to the authors for a final check via the [[Editorial/AuthorLiaison | author liaison]]. Authors have three days for any last minute revision%0a---%0a> When the articles are complete, PDF preprints are sent to the authors for a final check via the [[Editorial/AuthorLiason]]. Authors have three days for any last minute revision%0a
+host:1304285005=64.134.27.137
+author:1304282955=ebering
+diff:1304282955:1304282955:=1,11d0%0a%3c Once papers have been selected for an issue the process of actually assembling them into a coherent pdf, ensuring that they all adhere to [[Editorial/Style | the style guide]], and compiling the related materials (front matter, remarks, art). Production is divided into two stages: article production, where the editorial staff modify the articles to use wmr.sty TeX and follow the style gude; and issue production, where the [[Editorial/ProductionEditor | production editor]] takes the completed articles (after sending pre-prints to authors for approval), art, and frontmatter and assembles the final PDF.%0a%3c %0a%3c !!! Article Production: Four days%0a%3c %0a%3c TODO: Document production system%0a%3c %0a%3c When the articles are complete, PDF preprints are sent to the authors for a final check via the [[Editorial/AuthorLiason]]. Authors have three days for any last minute revision%0a%3c %0a%3c !!! Issue Production: Three days%0a%3c %0a%3c TODO: Document production system%0a\ No newline at end of file%0a
+host:1304282955=64.134.27.137

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+host=64.134.27.137
+name=Site.SideBar
+passwdedit=@_site_edit
+rev=4
+targets=Main.HomePage,Editorial.Editorial,Editorial.Style,Editorial.Production,Editorial.CurrentAuthors,Editorial.ReviewBoard,Publicity.Publicity,Distribution.Distribution,Funding.Funding,PmWiki.PmWiki,PmWiki.BasicEditing,PmWiki.DocumentationIndex,Site.SideBar
+text=* [[Main/HomePage]]%0a%0a%0a%25sidehead%25 [[Editorial/Editorial]]%0a* [[Editorial/Style]]%0a* [[Editorial/Production]]%0a* [[Editorial/CurrentAuthors]]%0a* [[Editorial/ReviewBoard]]%0a%0a%25sidehead%25 [[Publicity/Publicity]]%0a%0a%25sidehead%25 [[Distribution/Distribution]]%0a%0a%25sidehead%25 [[Funding/Funding]]%0a%0a%25sidehead%25 [[PmWiki/PmWiki]]%0a* [[PmWiki/Basic Editing]]%0a* [[PmWiki/Documentation Index]]%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1304286745
+author:1304286745=ebering
+diff:1304286745:1304284245:=8d7%0a%3c * [[Editorial/ReviewBoard]]%0a
+host:1304286745=64.134.27.137
+author:1304284245=ebering
+diff:1304284245:1304284223:=7c7%0a%3c * [[Editorial/CurrentAuthors]]%0a---%0a> * [[Editorial/CurrentPapers]]%0a
+host:1304284245=64.134.27.137
+author:1304284223=ebering
+diff:1304284223:1304113072:=5,7d4%0a%3c * [[Editorial/Style]]%0a%3c * [[Editorial/Production]]%0a%3c * [[Editorial/CurrentPapers]]%0a
+host:1304284223=64.134.27.137
+author:1304113072=
+diff:1304113072:1125550800:=2,11c2,3%0a%3c %0a%3c %0a%3c %25sidehead%25 [[Editorial/Editorial]]%0a%3c %0a%3c %25sidehead%25 [[Publicity/Publicity]]%0a%3c %0a%3c %25sidehead%25 [[Distribution/Distribution]]%0a%3c %0a%3c %25sidehead%25 [[Funding/Funding]]%0a%3c %0a---%0a> * [[Main/WikiSandbox]]%0a> %0a12a5%0a> * [[PmWiki/Initial Setup Tasks]]  %0a14a8,17%0a> * [[PmWiki/FAQ | PmWiki FAQ ]]%0a> * [[PmWiki/PmWikiPhilosophy]]%0a> * [[PmWiki/Release Notes]]%0a> * [[PmWiki/ChangeLog]]%0a> %0a> %25sidehead%25 [[http://www.pmwiki.org | pmwiki.org ]]%0a> * [[Cookbook:CookbookBasics | Cookbook (addons) ]]%0a> * [[Cookbook:Skins | Skins (themes) ]]%0a> * [[PITS:PITS | PITS (issue tracking) ]]%0a> * [[PmWiki/Mailing Lists]]%0a
+host:1304113072=70.255.141.218

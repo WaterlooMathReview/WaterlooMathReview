@@ -1,0 +1,125 @@
+\ProvidesPackage{wmr}
+%%%%
+% Waterloo Mathematics Review LaTeX style
+% Provides page geometry and headings, typographic style,
+% and theorem environments.
+%%%%
+
+%%%%
+% Package dependencies
+% 
+% * mathtools, amssymb, amsthm --- Standard math packages, we are setting math.
+\RequirePackage{mathtools}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{amsfonts}
+% * cite --- better citations
+\RequirePackage{cite}
+% * url --- URL support
+\RequirePackage{url}
+% * sectsty --- Allows us to set section styles within a documentclass, 
+%   since writing our own .cls would clash with the combine package
+\RequirePackage{sectsty}
+% * abstract --- Use this package to control spacing and delimeters 
+%   of the abstracts.
+\RequirePackage[runin]{abstract}
+% * geometry --- Default page geometry is for 2 pages, 2:3 margin ratios
+\RequirePackage{geometry}
+% * fancyhdr --- Set headers
+\RequirePackage{fancyhdr}
+% * microtype --- microtypography package sets optical kerning, 
+%   does better jobs of adjusting letter spacing on short lines
+\RequirePackage[factor=1000]{microtype}
+%%%%
+
+%%%%
+% Page geometry
+\geometry{hmarginratio=2:3,nofoot=true,vmarginratio=2:3,inner=.1\paperwidth,top=.1\paperheight}
+%%%%
+
+%%%%
+% Page headers
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[CO]{\textsc{The Waterloo Mathematics Review}}
+\fancyhead[LO,RE]{\thepage}
+\fancyfoot{}
+%%%%
+
+%%%%
+% Bibliography style
+\bibliographystyle{amsalpha}
+%%%%
+
+%%%%
+% Section style and spacing
+\sectionfont{\Large\mdseries\scshape\centering}
+\subsectionfont{\normalfont\large\scshape\raggedright}
+\subsubsectionfont{\normalfont\normalsize\scshape\raggedright}
+\paragraphfont{\normalfont\normalsize\scshape}
+\setlength{\parindent}{2em}
+%%%%
+
+%%%%
+% Abstract style and spacing
+\renewcommand{\abstractnamefont}{\normalfont\small\mdseries\scshape\flushleft}
+\renewcommand{\abstracttextfont}{\normalfont\small}
+\setlength{\absparindent}{0pt}
+\setlength{\abstitleskip}{0pt}
+\abslabeldelim{:\,}
+%%%%
+
+%%%%
+% WMR Theorem and Remark style
+\newtheoremstyle{wmrtheorem}
+    {\topsep}
+    {\topsep}
+    {\normalfont \leftskip 2em }
+    {-2em}
+    {\mdseries\itshape}
+    {.}
+    { }
+    {\thmname{#1}\thmnumber{ \mdseries\itshape#2}\thmnote{ \mdseries\itshape(#3)}}
+
+\newtheoremstyle{wmrremark}
+    {\topsep}
+    {\topsep}
+    {\normalfont}
+    {}
+    {\itshape}
+    {:}
+    { }
+    {\thmname{#1}\thmnumber{ \itshape#2}\thmnote{ \itshape(#3)}}
+%%%%
+
+%%%%
+% Theorem environments and numbering
+\theoremstyle{wmrtheorem}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{auxiliar}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{claim}{Claim}[section]
+\newtheorem{openquestion}{Open Question}[section]
+\newtheorem*{claim*}{Claim}
+
+\newtheorem{axiom}{Axiom}
+
+\theoremstyle{wmrremark}
+\newtheorem{remark}[theorem]{Remark}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%%%
+
+%%%%
+% WMR Enumerate and Itemize, replace enumerate and itemize
+% with these.
+\newenvironment{wmrenumerate}{
+\begin{list}{\arabic{enumi}.}{\usecounter{enumi}\setlength{\leftmargin}{\parindent}} }{\end{list}}
+\newenvironment{wmritemize}{\begin{list}{\labelitemi}{\setlength{\leftmargin}{\parindent}}}{\end{list}}

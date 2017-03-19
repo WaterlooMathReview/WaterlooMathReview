@@ -1,0 +1,21 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304283717
+host=64.134.27.137
+name=Editorial.Editorial
+rev=3
+targets=Editorial.ReviewBoard,Editorial.AuthorLiaison,Editorial.ProductionEditor,Editorial.SubmissionMeeting,Editorial.ReviewMeeting,Editorial.RevisionMeeting,Main.HomePage,Editorial.Production,Editorial.Policy,Editorial.Style
+text=This section documents the editorial policy and procedure of the WMR.%0a%0a!!! Editorial Tasks%0a%0aThe editors share the work of all editorial tasks, however it is generally useful to assign each editor one of the following three roles for an issue.%0a* [[Editorial/ReviewBoard | Liaison to the Review Board]]%0a* [[Editorial/AuthorLiaison | Author Liaison]]%0a* [[Editorial/ProductionEditor | Production Editor]]%0a%0a!!! Editorial Meetings%0a%0aFor each issue there are three major editorial meetings:%0a* [[SubmissionMeeting]]%0a* [[ReviewMeeting]]%0a* [[RevisionMeeting]]%0aRefer to the [[Main/ | timeline]] for when these meetings are to occur.%0a%0aAdditionally the editorial staff is responsible for [[Production]] of an issue, this section documents the tools and procedure for production.%0a%0a!!! Style and Policy%0a%0aThe editorial board is governed by its [[Editorial/Policy | editorial policy]]. The editorial board also sets the style of the Review, documented in [[Editorial/Style | the style guide]].
+time=1304285382
+author:1304285382=ebering
+diff:1304285382:1304283739:=2,8d1%0a%3c %0a%3c !!! Editorial Tasks%0a%3c %0a%3c The editors share the work of all editorial tasks, however it is generally useful to assign each editor one of the following three roles for an issue.%0a%3c * [[Editorial/ReviewBoard | Liaison to the Review Board]]%0a%3c * [[Editorial/AuthorLiaison | Author Liaison]]%0a%3c * [[Editorial/ProductionEditor | Production Editor]]%0a
+host:1304285382=64.134.27.137
+author:1304283739=ebering
+diff:1304283739:1304283717:=9c9%0a%3c Refer to the [[Main/ | timeline]] for when these meetings are to occur.%0a---%0a> Refer to the [[HomePage | timeline]] for when these meetings are to occur.%0a
+host:1304283739=64.134.27.137
+author:1304283717=ebering
+diff:1304283717:1304283717:=1,15d0%0a%3c This section documents the editorial policy and procedure of the WMR.%0a%3c %0a%3c !!! Editorial Meetings%0a%3c %0a%3c For each issue there are three major editorial meetings:%0a%3c * [[SubmissionMeeting]]%0a%3c * [[ReviewMeeting]]%0a%3c * [[RevisionMeeting]]%0a%3c Refer to the [[HomePage | timeline]] for when these meetings are to occur.%0a%3c %0a%3c Additionally the editorial staff is responsible for [[Production]] of an issue, this section documents the tools and procedure for production.%0a%3c %0a%3c !!! Style and Policy%0a%3c %0a%3c The editorial board is governed by its [[Editorial/Policy | editorial policy]]. The editorial board also sets the style of the Review, documented in [[Editorial/Style | the style guide]].%0a\ No newline at end of file%0a
+host:1304283717=64.134.27.137

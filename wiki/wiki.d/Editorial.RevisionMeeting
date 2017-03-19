@@ -1,0 +1,18 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304281643
+host=64.134.27.137
+name=Editorial.RevisionMeeting
+rev=2
+targets=Editorial.AuthorLiaison,Editorial.ProductionEdtior
+text=The revision meeting is the final editorial meeting of an issue. At this meeting the editors make their final decisions regarding submitted papers based on author's final drafts. Once a paper is accepted by a revision meeting it will appear in some issue of the Review. The editors also decide, from accepted finals, which will make up the upcoming issue. %0a%0a!!! Preparation for the meeting%0a%0aBefore this meeting, each editor needs to:%0a* Read all final drafts, including ones held over from previous issues%0a* Assess whether or not the submitted finals have met any revision requirements%0a%0a!!! Decisions at the meeting%0a%0aAt this meeting the editorial board will decide:%0a* Which papers are in principle of a quality acceptable for inclusion in an issue of the Review%0a* Which papers will be included in the upcoming issue of the review%0a%0a!!! Action after the meeting%0a%0aThe [[Editorial/AuthorLiaison | author liaison]] will inform the authors of the decision.%0a%0aThe [[Editorial/ProductionEdtior | production editor]] will assign papers for production preparation.
+time=1304284989
+author:1304284989=ebering
+diff:1304284989:1304281643:=17c17%0a%3c The [[Editorial/AuthorLiaison | author liaison]] will inform the authors of the decision.%0a---%0a> The [[Editorial/AuthorLiason | author liason]] will inform the authors of the decision.%0a
+host:1304284989=64.134.27.137
+author:1304281643=ebering
+diff:1304281643:1304281643:=1,19d0%0a%3c The revision meeting is the final editorial meeting of an issue. At this meeting the editors make their final decisions regarding submitted papers based on author's final drafts. Once a paper is accepted by a revision meeting it will appear in some issue of the Review. The editors also decide, from accepted finals, which will make up the upcoming issue. %0a%3c %0a%3c !!! Preparation for the meeting%0a%3c %0a%3c Before this meeting, each editor needs to:%0a%3c * Read all final drafts, including ones held over from previous issues%0a%3c * Assess whether or not the submitted finals have met any revision requirements%0a%3c %0a%3c !!! Decisions at the meeting%0a%3c %0a%3c At this meeting the editorial board will decide:%0a%3c * Which papers are in principle of a quality acceptable for inclusion in an issue of the Review%0a%3c * Which papers will be included in the upcoming issue of the review%0a%3c %0a%3c !!! Action after the meeting%0a%3c %0a%3c The [[Editorial/AuthorLiason | author liason]] will inform the authors of the decision.%0a%3c %0a%3c The [[Editorial/ProductionEdtior | production editor]] will assign papers for production preparation.%0a\ No newline at end of file%0a
+host:1304281643=64.134.27.137

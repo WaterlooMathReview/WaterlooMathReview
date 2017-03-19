@@ -1,0 +1,18 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/20100101 Firefox/5.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1304283323
+host=129.97.134.36
+name=Editorial.Style
+rev=2
+targets=
+text=The WMR uses the style suggested by ''Mathematics into Type'' with the following exceptions:%0a%0a!!! Typographic style%0a%0aTypographic style is codified in issue/tools/wmr.sty, the LaTeX style file used by the journal.%0a%0a!!! Section headings%0a%0aSection headings should be capitalized like titles. Subsections and lower divisions should only have the first word capitalized.%0a%0a!!! Citation style%0a%0aThe AMS Alphabetical citation style is used (bibtex style amsalpha). %0a%0a!!! References and cross references%0a%0aTheorems, equations, lemmas, definitions, etc. are all cross referenced as proper nouns, and should be capitalized as such: e.g. Theorem 8.1, not theorem 8.1; Equation 2.3, not equation 2.3 or (2.3).%0a%0aReferences to the bibliography are parenthetical statements and should never be used as noun phrases. E.g. "see the 2003 survey by Smith [Smi03]" and not "see [Smi03]".
+time=1312401403
+author:1312401403=
+diff:1312401403:1304283323:=1,2c1,2%0a%3c The WMR uses the style suggested by ''Mathematics into Type'' with the following exceptions:%0a%3c %0a---%0a> The WMR uses the style suggested by Mathematics into Type with the following exceptions:%0a> %0a6,9d5%0a%3c %0a%3c !!! Section headings%0a%3c %0a%3c Section headings should be capitalized like titles. Subsections and lower divisions should only have the first word capitalized.%0a
+host:1312401403=129.97.134.36
+author:1304283323=ebering
+diff:1304283323:1304283323:=1,15d0%0a%3c The WMR uses the style suggested by Mathematics into Type with the following exceptions:%0a%3c %0a%3c !!! Typographic style%0a%3c %0a%3c Typographic style is codified in issue/tools/wmr.sty, the LaTeX style file used by the journal.%0a%3c %0a%3c !!! Citation style%0a%3c %0a%3c The AMS Alphabetical citation style is used (bibtex style amsalpha). %0a%3c %0a%3c !!! References and cross references%0a%3c %0a%3c Theorems, equations, lemmas, definitions, etc. are all cross referenced as proper nouns, and should be capitalized as such: e.g. Theorem 8.1, not theorem 8.1; Equation 2.3, not equation 2.3 or (2.3).%0a%3c %0a%3c References to the bibliography are parenthetical statements and should never be used as noun phrases. E.g. "see the 2003 survey by Smith [Smi03]" and not "see [Smi03]". %0a\ No newline at end of file%0a
+host:1304283323=64.134.27.137

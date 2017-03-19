@@ -1,0 +1,15 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304287032
+host=64.134.27.137
+name=Editorial.ProductionEditor
+rev=1
+targets=Editorial.Production
+text=The production editor is responsible for maintaining the production system and handling the details of issue [[Production]].
+time=1304287032
+author:1304287032=ebering
+diff:1304287032:1304287032:=1d0%0a%3c The production editor is responsible for maintaining the production system and handling the details of issue [[Production]].%0a\ No newline at end of file%0a
+host:1304287032=64.134.27.137

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304280465
+host=64.134.27.137
+name=Editorial.ReviewMeeting
+rev=3
+targets=Editorial.ReviewBoard,Editorial.AuthorLiaison
+text=The review meeting is the second editorial meeting of an issue. At this meeting the editors make decisions regarding submitted papers based on review reports from the review board. Based on these reports the editors screen papers and decide on the inclusion of papers, possibly with a condition of further revision.%0a%0a!!! Preparation for the meeting%0a%0aBefore this meeting, each editor needs to:%0a* Read all review reports%0a* If necessary, re-read the submitted papers%0a* Prepare final editorial comments to be sent to the author regarding their submission%0a%0a!!! Decisions at the meeting%0a%0aAt this meeting the editorial board will decide:%0a* Which papers to accept for eventual publication, possibly contingent on edits%0a* Which editor will work with which authors to prepare the final drafts.%0a%0a!!! Action after the meeting%0a%0aThe review board will be thanked for their work and the [[Editorial/ReviewBoard | editor in charge of reviewers]] will deliver this message.%0a%0aThe authors will be notified of the decision and placed in contact with the appropriate editor by the [[Editorial/AuthorLiaison | author liaison]].
+time=1304284973
+author:1304284973=ebering
+diff:1304284973:1304281064:=20c20%0a%3c The authors will be notified of the decision and placed in contact with the appropriate editor by the [[Editorial/AuthorLiaison | author liaison]].%0a\ No newline at end of file%0a---%0a> The authors will be notified of the decision and placed in contact with the appropriate editor by the [[Editorial/AuthorLiason | author liason]].%0a\ No newline at end of file%0a
+host:1304284973=64.134.27.137
+author:1304281064=ebering
+diff:1304281064:1304280465:minor=10c10%0a%3c !!! Decisions at the meeting%0a---%0a> !!! Decisions at this meeting%0a
+host:1304281064=64.134.27.137
+author:1304280465=ebering
+diff:1304280465:1304280465:=1,20d0%0a%3c The review meeting is the second editorial meeting of an issue. At this meeting the editors make decisions regarding submitted papers based on review reports from the review board. Based on these reports the editors screen papers and decide on the inclusion of papers, possibly with a condition of further revision.%0a%3c %0a%3c !!! Preparation for the meeting%0a%3c %0a%3c Before this meeting, each editor needs to:%0a%3c * Read all review reports%0a%3c * If necessary, re-read the submitted papers%0a%3c * Prepare final editorial comments to be sent to the author regarding their submission%0a%3c %0a%3c !!! Decisions at this meeting%0a%3c %0a%3c At this meeting the editorial board will decide:%0a%3c * Which papers to accept for eventual publication, possibly contingent on edits%0a%3c * Which editor will work with which authors to prepare the final drafts.%0a%3c %0a%3c !!! Action after the meeting%0a%3c %0a%3c The review board will be thanked for their work and the [[Editorial/ReviewBoard | editor in charge of reviewers]] will deliver this message.%0a%3c %0a%3c The authors will be notified of the decision and placed in contact with the appropriate editor by the [[Editorial/AuthorLiason | author liason]].%0a\ No newline at end of file%0a
+host:1304280465=64.134.27.137

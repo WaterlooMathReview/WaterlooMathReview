@@ -1,0 +1,21 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5
+author=Brett Coburn
+charset=ISO-8859-1
+csum=
+ctime=1340244923
+host=99.236.194.55
+name=Distribution.Print
+rev=3
+targets=
+text=!! Publisher Contact Information%0a%0aOur contact at Weller Publishing is Lucy Pastor (lucy@wellerpublishing.com). For the past several issues we have requested the following specifications: 2,000 copies of a magazine printed on 35 lb PREMIUM 80 stock with 1 form of four colour process - stitched and trimmed. For a 56-page issue this is quoted at $908.00.%0a%0aOnce we have a pdf of the issue to send them, we send it to prepress@wellerpublishing.com. At this time, I also copy Lucy to the email to confirm the specifications detailed above, and to set a delivery date. Prepress handles any printing questions (graphics, colouring) and Lucy handles the business side (price, number of issues).%0a%0aWe get it shipped to "200 University Ave. West, Waterloo, ON N2L 4G1, East Campus Hall, Central Store" where we pick it up by hand the day it comes in. When Lucy wants to know who to send the invoice to, we tell her:%0a%0a"Gina Yun,%0a%0aDean of Mathematics Office%0a%0aUniversity of Waterloo%0a200 University Ave. West%0aWaterloo, ON, Canada, N2L 3G1"%0a%0aThis currently goes to our account with the dean. Gina's phone number, for Lucy's reference, is 519-888-4567 x36757.
+time=1340244947
+author:1340244947=Brett Coburn
+diff:1340244947:1340244943:=0a1%0a> %0a
+host:1340244947=99.236.194.55
+author:1340244943=Brett Coburn
+diff:1340244943:1340244923:=1,2c1%0a%3c %0a%3c !! Publisher Contact Information%0a---%0a> Publisher Contact Information%0a
+host:1340244943=99.236.194.55
+author:1340244923=Brett Coburn
+diff:1340244923:1340244923:=1,17d0%0a%3c Publisher Contact Information%0a%3c %0a%3c Our contact at Weller Publishing is Lucy Pastor (lucy@wellerpublishing.com). For the past several issues we have requested the following specifications: 2,000 copies of a magazine printed on 35 lb PREMIUM 80 stock with 1 form of four colour process - stitched and trimmed. For a 56-page issue this is quoted at $908.00.%0a%3c %0a%3c Once we have a pdf of the issue to send them, we send it to prepress@wellerpublishing.com. At this time, I also copy Lucy to the email to confirm the specifications detailed above, and to set a delivery date. Prepress handles any printing questions (graphics, colouring) and Lucy handles the business side (price, number of issues).%0a%3c %0a%3c We get it shipped to "200 University Ave. West, Waterloo, ON N2L 4G1, East Campus Hall, Central Store" where we pick it up by hand the day it comes in. When Lucy wants to know who to send the invoice to, we tell her:%0a%3c %0a%3c "Gina Yun,%0a%3c %0a%3c Dean of Mathematics Office%0a%3c %0a%3c University of Waterloo%0a%3c 200 University Ave. West%0a%3c Waterloo, ON, Canada, N2L 3G1"%0a%3c %0a%3c This currently goes to our account with the dean. Gina's phone number, for Lucy's reference, is 519-888-4567 x36757.%0a\ No newline at end of file%0a
+host:1340244923=99.236.194.55

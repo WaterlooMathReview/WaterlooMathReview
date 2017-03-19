@@ -1,0 +1,15 @@
+version=pmwiki-2.2.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+author=ebering
+charset=ISO-8859-1
+csum=
+ctime=1304285257
+host=64.134.27.137
+name=Editorial.AuthorLiaison
+rev=1
+targets=
+text=The author liaison is the editor tasked with keeping authors appraised of their submission's progress and being the editorial board's contact with authors except during final draft preparation. %0a%0aIn addition to tasks immediately after each editorial meeting, the author liaison should provide submitters with a brief overview of the process upon receipt of their submission.
+time=1304285257
+author:1304285257=ebering
+diff:1304285257:1304285257:=1,3d0%0a%3c The author liaison is the editor tasked with keeping authors appraised of their submission's progress and being the editorial board's contact with authors except during final draft preparation. %0a%3c %0a%3c In addition to tasks immediately after each editorial meeting, the author liaison should provide submitters with a brief overview of the process upon receipt of their submission.%0a\ No newline at end of file%0a
+host:1304285257=64.134.27.137

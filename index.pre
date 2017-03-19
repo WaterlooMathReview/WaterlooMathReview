@@ -1,0 +1,186 @@
+#include "common/header.inc"
+
+	<div id="content" class="column">
+                <h1 class="headline">Waterloo Mathematics Review currently inactive.</h1>
+                <div class="abstract">At the present date the Waterloo Mathematics Review is inactive, lacking interested undergraduate editors. 
+                If you are an undergraduate at Waterloo interested in re-starting the review please contact an emeritus editor about your interest. 
+                This website is maintained as an archive.</div> <br />
+
+		<!-- <h1 class="headline"><em class="news">News:</em> Volume III, Issue 2 Deadline Extension!</h1>
+		<div class="abstract"><span class="author">Michael Baker, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>Due to the editors being busy, the deadline for submissions for Volume III Issue 2 has been extended! Papers must now be submitted by September 31, 2013 to be considered for inclusion in the issue.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | August 28, 2013</span></div><br />
+
+
+		<h1 class="headline"><em class="news">Current Issue :</em> Volume II, Issue 2 </h1>
+		<div class="abstract">
+		The  fifth  issue of the <i>Review</i> is now available online, print copies are available at universities across Canada. In the issue:
+		<ul>
+			<li><span class="author">Edgar A. Bering IV  </span><span class="emdash">&mdash;</span>A brief introduction to measurable cardinals </li> 
+			<li><span class="author"> Joseph Horan</span><span class="emdash">&mdash;</span>Atomic Realizations of Chemical Reaction Networks</li>
+			<li><span class="author"> Jean-Philippe Fortin and Samantha Rudinsky </span><span class="emdash">&mdash;</span>Asymptotic eigenvalue distribution of random lifts</li>
+		</ul>
+		<span class="links"><a href="archive/volii/2/index.html">View the issue</a> | July  7, 2013</span></div> <br/>
+
+
+
+
+
+
+
+
+		<h1 class="headline"><em class="news">News:</em> Volume III, Issue 1 Deadline Extension!</h1>
+		<div class="abstract"><span class="author">Michael Baker, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The deadline for submissions for Volume III Issue 1 has been extended! Papers must now be submitted by May 21, 2013 to be considered for inclusion in the issue.<br/>
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | April 18, 2013</span></div> <br/>
+
+		<h1 class="headline"><em class="news">News:</em> Volume III, Issue 1  Call for Papers</h1>
+		<div class="abstract"><span class="author"> Michael Baker, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The <i>Review</i> is once again 
+		soliciting paper submissions. The <i>Review</i> is accepting papers authored by undergraduates 
+		across Canada for the first issue of a new volume. Papers should be of interest and accessible to the undergraduate population,
+		and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page. 
+		Papers must be submitted by April 22, 2013 to be considered for inclusion in the issue.<br/>
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | February 23, 2013</span></div> <br/>
+
+                <h1 class="headline"><em class="news">News:</em> Volume II, Issue 2  Call for Papers</h1>
+                <div class="abstract"><span class="author"> Eeshan Wagh, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The <i>Review</i> is once again
+                soliciting paper submissions. The <i>Review</i> is accepting papers authored by undergraduates
+                across Canada for the first issue of a new volume. Papers should be of interest and accessible to the undergraduate population,
+                and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page.
+                Papers must be submitted by October 31, 2012 for consideration for inclusion in the issue.<br/>
+
+                <span class="links"><a href="submissions.html">Submission Instructions</a> | October 5, 2012</span></div> <br/>
+
+		<h1 class="headline"><em class="news">Current Issue :</em> Volume II, Issue 1 </h1>
+		<div class="abstract">
+		The  fourth  issue of the <i>Review</i> is now available online, print copies are available at universities across Canada. In the issue:
+		<ul>
+			<li><span class="author">Hubert Duan</span><span class="emdash">&mdash;</span> Bounding the Fat shattering Dimension of a Composition Function Class Built Using a Continuous Logic Connective</li> 
+			<li><span class="author"> Eric Naslund</span><span class="emdash">&mdash;</span>Integers With a Predetermined PrimeFactorization</li>
+			<li><span class="author"> Luke Bovard </span><span class="emdash">&mdash;</span> Rotterdam Must Die: Triangular Finite Volume Methods Applied to the Shallow Water Equations  </li>
+		</ul>
+		<span class="links"><a href="archive/volii/1/index.html">View the issue</a> | September 11, 2012</span></div> <br/>
+
+
+
+
+
+
+
+
+		<h1 class="headline"><em class="news">News:</em> Volume II, Issue 2 Deadline Extension!</h1>
+		<div class="abstract"><span class="author">Eeshan Wagh, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>
+		The deadline for submissions for Volume II Issue 2 has been extended! Papers must now be submitted by June 15, 2012 for consideration for inclusion in the issue.<br/>
+		
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | May 27, 2012</span></div> <br/>
+		
+
+
+
+
+
+
+
+
+
+		<h1 class="headline"><em class="news">News:</em> LaTeX Tools for Authors Now Available</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The house style
+		for the <i>Review</i> is now available on the submissions page. Authors wishing to typeset their submissions using LaTeX are encouraged to
+		do so using this package.<br/>
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | January 23, 2012</span></div> <br/>
+
+		<h1 class="headline"><em class="news">News:</em> Volume II, Issue 1 Call for Papers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The <i>Review</i> is once again
+		soliciting paper submissions. The <i>Review</i> is accepting papers authored by undergraduates
+		across Canada for the first issue of a new volume. Papers should be of interest and accessible to the undergraduate population,
+		and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page.
+		Papers must be submitted by February 1, 2012 for consideration for inclusion in the issue.<br/>
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | November 29, 2011</span></div> <br/>
+
+		<h1 class="headline"><em class="news">News:</em> General Meeting</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> will be holding a general meeting for interested individuals in MC2066 on Thursday, September 15th at 6:00 PM. At the meeting
+		editors and general management staff will discuss opportunities for involvement in the <i>Review</i>, discuss principles for good mathematical writing
+		for interested writers, and be available to answer questions about the <i>Review</i>.<br />
+
+		<span class="links">September 11, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Volume I, Issue 3 Deadline Extended</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>Due to the
+		overlapping deadlines of NSERC, OGS, and Mathematics GRE offerings, the <i>Review</i> has decided to extend the consideration deadline
+		for Volume I, Issue 3 to October 21st, 2011.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | October 12, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Mailing List Launched</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> now maintains a mailing list for keeping interested readers up to date on new issue releases, calls for papers, and
+		other relevant news items. The mailing list will also be used to solicit reader feedback from time to time, so please consider subscribing.<br />
+
+		<span class="links"><a href="http://eepurl.com/fiyhI">Subscribe</a> | September 8, 2011</span></div> <br />
+		<h1 class="headline"><em class="news">Current Issue:</em> Volume I, Issue 2</h1>
+		<div class="abstract">
+		The second issue of the <i>Review</i> is now available online, print copies will be available soon. In the issue:
+		<ul>
+			<li><span class="author">Alexsandar Vlasev</span><span class="emdash">&mdash;</span>Combinatorial Approach to Finding Dirichlet Generating Function Identities</li> 
+			<li><span class="author">Jennifer H. Nguyen</span><span class="emdash">&mdash;</span>An Introduction to Calibration Estimators</li>
+			<li><span class="author">Mihai Nica</span><span class="emdash">&mdash;</span>Eigenvalues and Eigenfunctions of the Laplacian</li>
+			<li><span class="author">Maysum Panju</span><span class="emdash">&mdash;</span>A Systematic Construction of Almost Integers</li>
+			<li><span class="author">Jason Olsthoorn</span><span class="emdash">&mdash;</span>Relativistic Fluid Dynamics</li>
+		</ul>
+		<span class="links"><a href="archive/voli/2/index.html">View the issue</a> | September 1, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Volume I, Issue 3 Call for Papers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The <i>Review</i> is once again
+		soliciting paper submissions. The <i>Review</i> is accepting papers authored by undergraduates
+		across Canada for the third issue. Papers should be of interest and accessible to the undergraduate population,
+		and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page.
+		Papers must be submitted by October 1, 2011 for consideration for inclusion in the issue.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | August 24, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Issue 2 Deadline Extended</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> is extending the submission deadline for Volume I, Issue 2. The submission deadline is now May 23, 2011. Details
+		on the submission process are available on the submissions page.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | May 13, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Information Session for Writers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> will be hosting an information session for interested writers on Monday May 9, 2011 at 8:00pm in MC5046. The Editors will
+		discuss the submission process as well as give tips for good mathematical writing.<br />
+
+		<span class="links">May 4, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Volume I, Issue 2 Call for Papers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span>The inaugural issue
+		of <i>The Waterloo Mathematics Review</i> is now available in print and online. The <i>Review</i> is accepting papers authored by undergraduates
+		across Canada for the second issue. Papers should be of interest and accessible to the undergraduate population,
+		and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page.
+		Papers must be submitted by May 15, 2011 for consideration for inclusion in the issue.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | March 31, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Information Session for Writers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> will be hosting an information session for interested writers on Friday January 7, 2011 at 3:30pm in MC4042. The Editors will
+		discuss the submission process as well as give tips for good mathematical writing.<br />
+
+		<span class="links">January 5, 2011</span></div> <br />
+
+		<h1 class="headline"><em class="news">News:</em> Volume I, Issue 1 Call for Papers</h1>
+		<div class="abstract"><span class="author">Edgar A. Bering IV, co-Editor-in-Chief</span><span class="emdash">&mdash;</span><i>The Waterloo
+		Mathematics Review</i> is pleased to announce its inaugural call for papers. The <i>Review</i> is accepting papers by undergraduates
+		in the Faculty of Mathematics at the University of Waterloo. Papers should be of interest and accessible to the undergraduate population,
+		and may cover any topic within mathematics, original research or not. Details on the submission process are available on the submissions page.
+		Papers must be submitted by January 15, 2011 for consideration for the inaugural issue.<br />
+
+		<span class="links"><a href="submissions.html">Submission Instructions</a> | November 1, 2010</span></div> <br /> -->
+	</div>
+
+#include "common/sidebar.inc"
+#include "common/footer.inc"

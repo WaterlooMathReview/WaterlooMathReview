@@ -1,0 +1,97 @@
+CIS-Dept. Lean Skin for PmWiki 2
+================================
+INSTALL.txt
+
+This skin installs in two easy steps:  Put the files in the correct
+location, then configure PmWiki to use the skin by adding some lines
+to the local configuration file.
+
+Step 1 - Copy Files
+-------------------
+Copy the lean/ directory to your wiki's pub/skins/ directory.
+The directory contains the following files:
+
+pub/skins/lean/
+|-- README.txt        Brief documentation
+|-- INSTALL.txt       This file
+|-- lean.tmpl         Template
+|-- lean.php          PHP script
+|-- lean.css          CSS stylesheet
+|-- leanicon.gif      Icon image
+|-- leanlogo.gif      Logo graphic image
+|-- print/
+|   `-- print.tmpl    Print View template
+`-- wikilib.d/
+    |-- Site.LeanEditForm   Custom edit form
+    `-- Site.LeanXLPage     Preferences page
+
+Step 2 - Edit local configuration file
+--------------------------------------
+The following lines go in your local/config.php local configuration
+file.
+
+## Use the CIS-Dept. Lean Skin and its printable view skin.
+$Skin = 'lean';
+$ActionSkin['print'] = 'lean/print';
+
+If you don't have a local/config.php yet you'll need to create one.
+Make sure that "<?php" is the very first line, with no leading spaces.
+You don't need a closing "?>". Here's an example local/config.php:
+
+<?php
+# Title of this wiki
+$WikiTitle = 'Wiki Site';
+
+# Use the CIS-Dept. Lean Skin and its printable view skin.
+$Skin = 'lean';
+$ActionSkin['print'] = 'lean/print';
+
+
+Translation
+-----------
+
+Some translation hints (inspired by a suggestion from Isidor
+http://www.pmwiki.org/wiki/Profiles/Isidor).
+* Be sure to translate the tool tips.
+* Check the lean.php file for items that need translation.
+* You may need to modify the template file to fit your language.
+  For example, to use simplified Chinese in Wiki pages you might change
+ <meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1' />
+ <meta http-equiv='Content-Language' content='en' />
+  to
+ <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+ <meta http-equiv='Content-Language' content='zh' />
+
+
+Other Steps - Customize (optional)
+----------------------------------
+
+Logo or Text Home Page Link -
+You can either use the logo provided or use a text link instead.  Edit
+lean.tmpl template and rearrange some comment lines ("<!--" and "-->")
+to switch.  If you want to replace the provided logo with your own, place
+your image file in the skin's directory and edit lean.php and place your
+logo image's name where you see the name of the stock logo (leanlogo.gif).
+It's in there two places.
+
+Custom Style Settings -
+You can customize the appearance of this skin by editing the lean.css file.
+Remember to view your pages in different browsers (at least a Mozilla browser
+and IE) to assure cross-browser compatibility.
+
+Inconspicuous Wiki Links -
+This version of the skin comes with the wiki links prominently shown at
+the top and bottom.  Uncomment the appropriate lines in the lean.css file
+to make the wiki-ness a little more subtle.
+
+Stealthy Wiki Links -
+As with the previous version of this skin, you can enable Stealthy Wiki
+Links by removing the appropriate comments in the lean.css file.
+
+Invisible Wiki Links -
+You can also try enabling the new Invisible Wiki Links by removing the
+comment lines near the end of the lean.css file.  This way wiki links aren't
+displayed but their access keys still work in Firefox (but not Internet
+Explorer).  This allows you to have a site that looks like an ordinary site,
+but is a quick and easy-to-edit wiki.
+

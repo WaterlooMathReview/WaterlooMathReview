@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>$WikiTitle : $Titlespaced $ActionTitle</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1' />
+  <meta http-equiv='Content-Language' content='en' />
+  <meta http-equiv='Content-Style-Type' content='text/css' />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta name='MSSmartTagsPreventParsing' content='true' />$SkinIconFmt
+  <!--HeaderText-->
+ </head>
+
+ <body>
+  <!--PageHeaderFmt-->
+  <table summary='Site: Header' id='siteheadtable' width='770'
+   cellpadding='0' cellspacing='0' border='0' align='center' $SkinHideHead>
+   <tr>
+    <td id='headlogo' colspan='1' rowspan='2' title='$[$WikiTitle Home]'>
+     $SkinHomeLink
+    </td>
+   </tr>
+   <tr>
+    <td id='headsiteloc'>
+     <div id='sitelocgroup'>
+      <span id='sitegroupforheader'>
+       $GroupHdrFmt</span> /
+     </div>
+     <div id='siteloctitle' title='$[$Titlespaced was last modified on $LastModified]'>
+      $SkinPageTitlePre$Titlespaced$SkinPageTitlePost
+     </div>
+    </td>
+    <td id='siteheadcmds'>
+     <div id='headcmdsupper'>
+      <span id='headedit'><a rel='nofollow' href='$PageUrl?action=edit'
+       title='$[Edit this page]'>$[Edit Page]</a></span>
+      <span id='headdiff'>| <a  rel='nofollow' href='$PageUrl?action=diff'
+       title='$[History of this page]'>$[Page History]</a></span>
+      <span id='headhelp'>| <a  rel='nofollow' href='$ScriptUrl/$[PmWiki/DocumentationIndex]'
+       title='$[Wiki Documentation]'>$[Wiki Help]</a></span>
+     </div>
+     <div id='headcmdslower'>
+      <span id='headprint'><a  rel='nofollow' href='$PageUrl?action=print'
+       title='$[Printable view of this page]'>$[Print]</a> |</span>
+      <span class='headsearch'><a href='$ScriptUrl/$[$SiteGroup.Search]'
+       title='$[Search the site]' rel='nofollow'>$[Search]</a>: </span><form
+       class='headsearch search' action='$ScriptUrl'><input
+       class='searchbox' type='text' name='q' value='' size='40' /><input
+       class='searchbutton' type='submit' value='$[Go]' />
+       <!-- version > beta53 -->
+       <!-- <input type='hidden' name='n' value='$FullName' /><input type='hidden' name='action' value='search' /> -->
+       <!-- version < beta53 -->
+       <input type='hidden' name='n' value='$SiteGroup.Search' />
+      </form></div>
+    </td>
+   </tr>
+  </table>
+  <!--/PageHeaderFmt-->
+  
+  <table summary='Site: Main' id='contentmain' width='770'
+   cellpadding='0' cellspacing='0' border='0' align='center'>
+   <tbody>
+    <tr>
+     <!--PageLeftFmt-->
+     <td id='mainsidebar' $SkinHideSide>
+      <!--wiki:$Group.SideBar $SiteGroup.SideBar-->
+      <!--wiki:$SiteGroup.LeanSearchBox-->
+      <div id='sidebarbottom'>
+       <span style='white-space:nowrap;'><a  rel='nofollow' href='http://validator.w3.org/check/referer'
+        title='Validate XHTML'>XHTML</a></span>
+      </div>
+     </td>
+     <!--/PageLeftFmt-->
+     <td id='mainsitetext'>
+      <!-- table to work around an NS4 bug -->
+      <table summary='Content Body' id='sitebody'
+       cellpadding='0' cellspacing='0' border='0'> 
+       <tr>
+        <td>
+         <!--PageTitleFmt-->
+         <div id='sitepagetitle'
+          title='$[$Titlespaced was last modified on $LastModified]'>
+          $SkinPageLinkPreFmt$Titlespaced$SkinPageLinkPostFmt
+         </div>
+         <!--PageText-->
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+    <tr>
+     <td id='mainsitefoot' colspan='2' rowspan='1'>
+      <table summary='Wiki: Footer' width='100%' cellpadding='0' cellspacing='0' border='0'>
+      <!--PageFooterFmt-->
+       <tr>
+        <td id='footleft'>
+         <span id='footchanges'><a  rel='nofollow' href='$ScriptUrl/$[$Group/RecentChanges]'
+          title='$[Recent (C)hanges in this section]'
+          accesskey='c'>$[Recent Changes]</a>
+         <a  rel='nofollow' href='$ScriptUrl/$[$SiteGroup.AllRecentChanges]'
+          title='$[(A)ll Recent changes for the entire site]'
+          accesskey='a'>($[All])</a></span>
+         <span id='footeditsb'>| <a  rel='nofollow' href='$ScriptUrl/$[$SiteGroup.SideBar]?action=edit'
+          title='$[Edit the Side(B)ar]'
+          accesskey='b'>$[Edit SideBar]</a></span>
+        </td>
+        <td id='footmiddle'>
+         <span id='footlastmod'>$[Page last modified on $LastModified]</span> 
+        </td>
+        <td id='footright'>
+         <span id='footedit'><a  rel='nofollow' href='$PageUrl?action=edit'
+          title='$[(E)dit this page]'
+          accesskey='e'>$[Edit Page]</a></span>
+         <span id='foothist'>| <a  rel='nofollow' href='$PageUrl?action=diff'
+          title='$[(H)istory of this page]'
+          accesskey='h'>$[Page History]</a></span> 
+        </td>
+       </tr>
+       <!--/PageFooterFmt-->
+       <tr>
+        <td id='sitesole' colspan='3' rowspan='1'>
+         $SkinCopyright 
+         <span id='sitepoweredby' title='$[Powered by PmWiki]'>$[Powered by]
+          <a href='http://www.pmichaud.com/wiki/PmWiki/PmWiki'
+           title='$[PmWiki Home]'>PmWiki</a></span> 
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <!-- Lean Skin v0.14.3
+  vim: expandtab sw=1 ts=1 sts=1 :
+  -->
+ </body>
+</html>
+

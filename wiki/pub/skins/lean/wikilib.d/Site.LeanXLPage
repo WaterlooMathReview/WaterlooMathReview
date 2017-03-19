@@ -1,0 +1,16 @@
+version=pmwiki-2.0.beta51 ordered=1
+newline=²
+agent=Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.7.8) Gecko/20050511 Firefox/1.0.4
+author=HaganFox
+host=216.161.175.221
+name=Site.LeanXLPage
+rev=2
+targets=
+text=This is the Lean Skin Preferences page.²  [=²  # Define a custom edit form.²  'Site.EditForm' => 'Site.LeanEditForm',²=]
+time=1122434251
+author:1122434251=HaganFox
+diff:1122434251:1122434102:=1c1²< This is the Lean Skin Preferences page.²---²> This is the Light Skin Preferences page.²
+host:1122434251=216.161.175.221
+author:1122434102=HaganFox
+diff:1122434102:1122434102:=1,5d0²< This is the Light Skin Preferences page.²<   [=²<   # Define a custom edit form.²<   'Site.EditForm' => 'Site.LeanEditForm',²< =]²\ No newline at end of file²
+host:1122434102=216.161.175.221

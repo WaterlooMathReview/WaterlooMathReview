@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+import cgi
+import cgitb
+import common
+cgitb.enable()
+
+print("Content-Type: text/html\r\n\r\n")
+form = cgi.FieldStorage()
+author = form["author"].value
+email = form["email"].value
+title = form["title"].value
+abstract = form["abstract"].value
+source = form["source"].value
+pdf = form["pdf"].value
+
+common.new_submission(author, email, title, abstract, source, pdf)
+print("Location: /submit_done.html")
+print("")
