@@ -1,0 +1,25 @@
+%% Computes the proper order of the adjacent cells for non-boundary points
+% 
+% Based off the search method implemented, the adjacent triangles are
+% merely given and not necessarily in any order. This solves that by
+% looking for the matching normals.
+%
+%
+% adj has the same structure as EdgeMatrix and is called as
+% adj(j,i)
+%%
+
+function order= order_triangles_nb(current_tri,adj,TriInfo)
+    %get the norm matrix
+    %n(:,1) gets the n1 and so on
+    n=[abs(TriInfo(2:3,current_tri)), abs(TriInfo(4:5,current_tri)),abs(TriInfo(6:7,current_tri)) ];
+    display(n);
+    order=zeros(1,3);    
+    for j=1:3
+        for i=1:3
+            if (n(1,1)==abs(TriInfo(2*i,adj(j,current_tri))) && n(2,1)==abs(TriInfo(2*i+1,adj(j,current_tri))))
+                order(1)=adj(j,current_tri);
+            end
+        end
+    end
+end
